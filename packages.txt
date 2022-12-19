@@ -1,117 +1,107 @@
-adobe-source-han-sans-jp-fonts 2.004-1
-alacritty 0.11.0-2
-alsa-firmware 1.2.4-2
-alsa-plugins 1:1.2.7.1-1
-alsa-tools 1.2.5-1
-alsa-utils 1.2.8-1
-archlinux-keyring 20221123-1
-autoconf 2.71-1
-automake 1.16.5-1
-awesome-terminal-fonts 1.1.0-4
-base 3-1
-batsignal 1.6.2-1
-bedstead-fonts-powerline 1.0-5
-binutils 2.39-4
-bison 3.8.2-4
-bluez 5.66-1
-bluez-utils 5.66-1
-brillo 1.4.10-2
-conky 1.15.0-1
-conky-manager 2.4-4
-debugedit 5.0-4
-dunst 1.9.0-1
-efibootmgr 18-1
-fakeroot 1.30.1-1
-ffmpegthumbnailer 2.2.2-4
-file 5.43-1
-findutils 4.9.0-1
-firefox 107.0.1-1
-flex 2.6.4-3
-gawk 5.2.1-1
-gcc 12.2.0-1
-gdu 5.20.0-1
-geany 1.38-3
-gettext 0.21.1-2
-git 2.38.1-2
-grep 3.8-2
-groff 1.22.4-7
-grub 2:2.06.r403.g7259d55ff-1
-gucharmap 15.0.2-1
-gzip 1.12-1
-helvum 0.3.4-1
-htop 3.2.1-1
-intel-ucode 20221108-1
-libtool 2.4.7-5
-linux-firmware 20221109.60310c2-2
-linux-zen 6.0.12.zen1-1
-lxappearance-obconf 0.2.3-3
-lxinput 0.3.5-3
-lxrandr 0.3.2-3
-m4 1.4.19-1
-make 4.3-5
-mandoc 1.14.6-1
-nano 7.0-1
-nano-syntax-highlighting 2020.10.10-1
-neofetch 7.1.0-2
-neovim 0.8.1-2
-network-manager-applet 1.30.0-1
-networkmanager 1.40.6-1
-nitrogen 1.6.1-4
-noto-fonts 20220810-1
-noto-fonts-emoji 20220920-1
-noto-fonts-extra 20220810-1
-numix-circle-icon-theme-git 22.11.26.r0.g186d7e0-1
-obconf 2.0.4-8
-obmenu-generator 0.91-1
-obsidian 1.0.3-1
-oh-my-zsh-git r6732.82c0db41b-1
-openbox 3.6.1-9
-pacman 6.0.2-5
-parsec-bin 150_28-5
-paru 1.11.1-1
-patch 2.7.6-8
-pavucontrol 1:5.0+r61+gee77d86-2
-pcmanfm 1.3.2-1
-perl-gtk3 0.038-2
-picom 10.1-1
-pipewire 1:0.3.61-1
-pipewire-pulse 1:0.3.61-1
-pkgconf 1.8.0-1
-plank 0.11.89-4
-polkit 122-1
-polybar 3.6.3-2
-powertop 2.15-1
-qimgv 1.0.2-2
-rofi 1.7.5-1
-rxvt-unicode-truecolor-wide-glyphs 9.30-6
-sed 4.9-1
-smartmontools 7.3-1
-sudo 1.9.12.p1-1
-texinfo 7.0.1-1
-thermald 2.5.1-1
-thunar 4.16.11-2
-thunar-archive-plugin 0.5.0-2
-thunar-volman 4.16.0-1
-tint2 17.0.2-2
-tlp 1.5.0-5
-tmux 3.3_a-2
-ttf-baekmuk 2.2-13
-ttf-dejavu 2.37+18+g9b5d1b2f-3
-ttf-font-awesome 6.2.1-1
-ttf-liberation 2.1.5-1
-tumbler 4.16.1-3
-vim 9.0.0910-1
-wget 1.21.3-1
-which 2.21-5
-xdg-utils 1.1.3+25+g8ae0263-1
-xf86-video-intel 1:2.99.917+916+g31486f40-2
-xorg-server 21.1.4-1
-xorg-xev 1.2.5-1
-xorg-xinit 1.4.2-1
-xorg-xinput 1.6.3-3
-xorg-xset 1.2.5-1
-xscreensaver 6.05.1-2
-xterm 377-1
-zsh 5.9-1
-zsh-completions 0.34.0-3
-zsh-syntax-highlighting 0.7.1-1
+adobe-source-han-sans-jp-fonts
+alacritty
+alsa-firmware
+alsa-plugins
+alsa-tools
+alsa-utils
+archlinux-keyring
+autoconf
+automake
+awesome-terminal-fonts
+base
+binutils
+bison
+bluez
+bluez-utils
+conky
+conky-manager
+debugedit
+dunst
+efibootmgr
+fakeroot
+ffmpegthumbnailer
+file
+findutils
+firefox
+flex
+gawk
+gcc
+gdu
+geany
+gettext
+git
+grep
+groff
+grub
+gucharmap
+gzip
+helvum
+htop
+intel-ucode
+libtool
+linux-firmware
+linux-zen
+lxappearance-obconf
+lxinput
+lxrandr
+m4
+make
+mandoc
+nano
+nano-syntax-highlighting
+neofetch
+neovim
+network-manager-applet
+networkmanager
+nitrogen
+noto-fonts
+noto-fonts-emoji
+noto-fonts-extra
+obconf
+obsidian
+openbox
+pacman
+patch
+pavucontrol
+pcmanfm
+perl-gtk3
+picom
+pipewire
+pipewire-pulse
+pkgconf
+plank
+polkit
+polybar
+powertop
+rofi
+sed
+smartmontools
+sudo
+texinfo
+thermald
+thunar
+thunar-archive-plugin
+thunar-volman
+tint2
+tlp
+tmux
+ttf-baekmuk
+ttf-dejavu
+ttf-font-awesome
+ttf-liberation
+tumbler
+vim
+wget
+which
+xdg-utils
+xf86-video-intel
+xorg-server
+xorg-xev
+xorg-xinit
+xorg-xinput
+xorg-xset
+xscreensaver
+xterm
+zsh
+zsh-completions
+zsh-syntax-highlighting
