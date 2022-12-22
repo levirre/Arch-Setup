@@ -9,6 +9,7 @@ binutils
 bison
 bluez
 bluez-tools
+bluez-utils
 conky
 conky-manager
 debugedit
