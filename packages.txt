@@ -14,12 +14,14 @@ bluez
 bluez-tools
 bluez-utils
 brillo
+calibre
 conky
 conky-manager
 cups
 debugedit
 deluge
 deluge-gtk
+discord
 dpkg
 efibootmgr
 fakeroot
@@ -65,6 +67,7 @@ pacman
 paru
 patch
 pavucontrol
+picom
 pipewire
 pipewire-pulse
 pkgconf

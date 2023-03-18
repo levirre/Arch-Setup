@@ -1,0 +1,6 @@
+[Added Associations]
+video/mp4=vlc.desktop;
+video/webm=vlc.desktop;
+
+[Default Applications]
+video/webm=vlc.desktop
