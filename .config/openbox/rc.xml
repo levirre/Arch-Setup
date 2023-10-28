@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Natura</name>
+    <name>Clearlooks-Olive</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -54,60 +54,60 @@
       S: shade (roll up/down)
       D: omnipresent (on all desktops).
   -->
-    <keepBorder>no</keepBorder>
-    <animateIconify>no</animateIconify>
+    <keepBorder>yes</keepBorder>
+    <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Noto Traditional Nushu</name>
-      <size>10</size>
+      <name>sans</name>
+      <size>8</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>Normal</slant>
+      <slant>normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>Noto Traditional Nushu</name>
-      <size>10</size>
+      <name>sans</name>
+      <size>8</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>Normal</slant>
+      <slant>normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>Sans</name>
-      <size>10</size>
+      <name>sans</name>
+      <size>9</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>Normal</slant>
+      <slant>normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>Sans</name>
-      <size>10</size>
+      <name>sans</name>
+      <size>9</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>Normal</slant>
+      <slant>normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Noto Traditional Nushu</name>
-      <size>10</size>
+      <name>sans</name>
+      <size>9</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>Italic</slant>
+      <slant>normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Noto Traditional Nushu Light</name>
-      <size>10</size>
+      <name>sans</name>
+      <size>9</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>Normal</slant>
+      <slant>normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
   </theme>
@@ -264,45 +264,6 @@
         <menu>client-menu</menu>
       </action>
     </keybind>
-	<keybind key="W-Left">
-  	  <action name="UnmaximizeFull"/>
-  	  <action name="MoveResizeTo">
-    	<width>50%</width>
-    	<height>100%</height>
-    	<x>0%</x>
-    	<y>0%</y>
-  		</action>
-	</keybind>
-	<keybind key="W-Right">
-  	  <action name="UnmaximizeFull"/>
-  	  <action name="MoveResizeTo">
-    	<width>50%</width>
-    	<height>100%</height>
-    	<x>50%</x>
-    	<y>0%</y>
-  		</action>
-	</keybind>
-	<keybind key="W-Down">
-  	  <action name="UnmaximizeFull"/>
-  	  <action name="MoveResizeTo">
-    	<width>100%</width>
-    	<height>50%</height>
-    	<x>0%</x>
-    	<y>50%</y>
-  		</action>
-	</keybind>
-	<keybind key="W-Up">
-  	  <action name="UnmaximizeFull"/>
-  	  <action name="MoveResizeTo">
-    	<width>100%</width>
-    	<height>50%</height>
-    	<x>0%</x>
-    	<y>0%</y>
-  		</action>
-	</keybind>
-	<keybind key="W-f">
-		<action name="Maximize"/>
-	</keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
@@ -359,49 +320,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>rofi</name>
+          <name>Konqueror</name>
         </startupnotify>
-        <command>rofi -show run</command>
-      </action>
-    </keybind>
-    <keybind key="W-t">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Terminal</name>
-        </startupnotify>
-        <command>alacritty</command>
-      </action>
-    </keybind>
-    <!-- Keybindings for Media Keys -->
-    <keybind key="XF86AudioMute">
-      <action name="Execute">
-        <command>pactl set-sink-mute 0 toggle</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioLowerVolume">
-      <action name="Execute">
-        <command>pactl set-sink-volume 0 -5%</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioRaiseVolume">
-      <action name="Execute">
-        <command>pactl set-sink-volume 0 +5%</command>
-      </action>
-    </keybind>
-    <keybind key="XF86MonBrightnessDown">
-      <action name="Execute">
-        <command>brillo -U 10</command>
-      </action>
-    </keybind>
-    <keybind key="XF86MonBrightnessUp">
-      <action name="Execute">
-        <command>brillo -A 10</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioMicMute">
-      <action name="Execute">
-        <command>amixer set Capture toggle</command>
+        <command>kfmclient openProfile filemanagement</command>
       </action>
     </keybind>
   </keyboard>

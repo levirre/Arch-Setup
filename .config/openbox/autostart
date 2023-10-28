@@ -15,8 +15,14 @@
 # If you want to use XFCE config tools...
 #
 #xfce-mcs-manager &
-xset -b
-(nitrogen --restore) &
-(picom) &
-(polybar) &
-
+sxhkd &
+nitrogen --restore &
+sleep 2 & 
+picom &
+polybar &
+sleep 2
+/usr/bin/pipewire &
+sleep 2
+/usr/bin/pipewire-pulse &
+sleep 2
+/usr/bin/pipewire-media-session &
